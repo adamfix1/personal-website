@@ -1,0 +1,336 @@
+*{
+ 	box-sizing:border-box;
+	font-family:georgia;
+}
+body{
+	background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Pale%20Blue%20Background.jpg');
+	margin:0px;
+}
+#nav-bar{
+	color:#228F64;
+	padding:10px;
+	background: linear-gradient(90deg, rgba(34,143,100,1) 33%, rgba(34,36,35,1) 90%);
+	margin:0px;
+	position:fixed;
+	width:100%;
+	top:0px;
+	z-index:10;
+}
+.link{
+	padding:10px;
+	font-family:raleway;
+	text-transform:uppercase;
+}
+.link:hover {
+ 	color: white;
+	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+#rockman{
+	height: 50px;
+	position:fixed;
+	border:1px solid #222423;
+	border-radius:25px;
+	right:28px;
+	top:11px;
+	z-index:11;
+	box-shadow: 0 1px 15px #222423;
+}
+#rockman:hover{
+	border-radius:35px;
+	height:70px;
+}
+header{
+	background: linear-gradient(90deg, rgba(174,238,236,1) 5%, rgba(0,0,0,0) 50%);
+	height:400px;
+	margin:37px 0 0 0;
+	outline:3px double #228F64;
+	width:100%;
+}
+h1{
+	color:#228F64;
+	font-family: 'raleway', Garamond;
+	font-size:90px;
+	height:100px;
+	margin:10% 47% 10px 80px;
+	opacity:.8;
+}
+h2{
+	color:#810D0D;
+	font-family: 'raleway', Garamond;
+	font-size:30px;
+	font-weight:bold;
+	margin:auto 47% auto 230px;
+}
+#headshot{
+	position:absolute;
+	right:0px;
+	top:37px;
+	z-index:-8;
+  height:400px;
+}
+#headshot-caption{
+	background-color:rgba(255, 255, 255, .75);
+	border:3px double #228F64;
+	font-family:raleway;
+	font-size:12px;
+	font-weight:bold;
+	padding:15px;
+	position:absolute;
+	right:10px;
+	text-align:center;
+	text-shadow:2px 2px white;
+	top:413px;
+	width:200px;
+	z-index:9;
+}
+.content{
+	margin:80px 120px 0 120px;
+	background-color:rgba(240, 255, 255, .5);
+}
+h3{
+	background: linear-gradient(90deg, rgba(129,13,13,1) 0%, rgba(0,0,0,0) 100%);
+	border-top:3px double #228F64;
+	color: #228F64;
+	padding:0px 20px;
+}
+h4{
+	margin:20px 40px 0 40px;
+}
+#first-h4-of-section{
+	margin:0 auto 0 40px;
+}
+p{
+	margin:0 40px 2px 40px;
+}
+.indentedparagraph{
+	margin:auto 40px auto 95px;
+}
+.music-video-section{
+	max-height:400px;
+	overflow: scroll;
+}
+.music-video{
+	border:2px solid #228F64;
+	border-radius:4px;
+	height:300px;
+	margin:20px auto;
+	max-width:100%;
+  display:block;
+}
+.Music p{
+  text-align:center;
+}
+.where-i-live{
+}
+.where-i-live-grid{
+  display:grid;
+  width:100%;
+  height:1500px;
+  margin:40px auto;
+  grid-template-areas:
+                    "zero zero"
+                    "one two"
+                    "twopointfive three"
+                    "four five";
+  grid-template-rows:repeat(4, 1fr);
+  grid-template-columns:repeat(2, 1fr);
+}
+.zero{
+  grid-area:zero;
+  background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Minneapolis%20Panorama.jpg);
+  background-size:cover;
+}
+.where-i-live-caption{
+	background-color:rgba(255, 255, 255, .75);
+	border:2px solid black;
+	font-size:16px;
+	font-style:italic;
+	font-weight:bold;
+	margin:10px auto;
+	padding:15px 30px;
+	text-shadow:2px 2px white;
+	width:340px;
+}
+.list-of-blurbs{
+	height:220px;
+	margin:50px auto 0px auto;
+	overflow:scroll;
+	width:240px;
+}
+#blurb{
+	background-color:rgba(255, 255, 255, .75);
+	border:2px solid black;
+	font-weight:bold;
+	height:220px;
+	margin:auto;
+	width:220px;
+	padding:15px;
+	text-align:center;
+	text-shadow:2px 2px white;
+}
+.one{
+  grid-area:one;
+  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Minneapolis-winter-2.jpg');
+  background-size:cover;
+}
+.two{
+  grid-area:two;
+  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Minneapolis-1.jpg');
+  background-size:cover;
+}
+.twopointfive{
+  grid-area:twopointfive;
+  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Cherry.jpg');
+  background-size:cover;
+}
+.three{
+  grid-area:three;
+  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/The-falls.jpg');
+  background-size:cover;
+}
+.four{
+  grid-area: four;
+  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/First-ave.jpg');
+  background-size:cover;
+}
+.five{
+  grid-area: five;
+  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Sunken-garden.jpg');
+  background-size:cover;
+}
+.box{
+	text-align:center;
+  border: 1px solid black;
+	padding:5px;
+}
+.box:hover{
+	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+#comics-button{
+  background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/kerpow.jpg);
+  background-size:cover;  color:rgba(34, 44, 44, 0);
+  height:100px;
+  left:23px;
+  margin:0;
+  padding:15px 5px;
+  position:absolute;
+  top:1200px;
+  width:74px;
+}
+#comics-button:hover{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  color:black;
+  background-image:none;
+}
+footer{
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Dont%20Need%20a%20Weatherman.jpg);
+	background-size:cover;
+	height:565px;
+}
+#footer-overlay{
+	background-color:rgba(34, 143, 100, .7);
+	height:565px;
+	margin:0px;
+	width:100%;
+	position:absolute;
+}
+#final-thanks{
+	position:absolute;
+	text-align:center;
+	top:30px;
+	width:100%;
+	margin:0px;
+}
+.button{
+	border:1px solid #810D0D;
+	border-radius: 4px;
+  color: #810D0D;
+  display: block;
+	font-family:'raleway', garamond;
+  font-weight: bold;
+  margin:240px auto 200px auto;
+  padding:20px;
+	text-align:center;
+  width:200px;
+}
+.button:hover {
+ 	background: azure;
+}
+#footerquote{
+	color:#810D0D;
+	margin:auto;
+	text-align:center;
+	width:auto;
+	border-top: 1px solid #810D0D;
+	border-bottom: 1px solid #810D0D;
+	line-height:2;
+	width:480px;
+	font-family:Merriweather;
+}
+
+
+
+
+
+
+
+
+
+.popout{
+	animation: popout 1s ease;
+}
+@keyframes popout {
+    	from{transform:scale(0)}
+    	80%{transform:scale(1.2)}
+    	to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+   	from{-webkit-transform:scale(0)}
+    	80%{-webkit-transform:scale(1.2)}
+    	to{-webkit-transform:scale(1)}
+}
+.date{
+	position:absolute;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+  header{
+  	background: linear-gradient(90deg, rgba(174,238,236,1) .1%, rgba(0,0,0,0) 50%);
+    height:300px;
+  }
+  h1{
+    color:#810D0D;
+    font-size:50px;
+    margin:10% 47% 10px 60px;
+  }
+  h2{
+    font-size:20px;
+    margin:60px auto auto 60px;
+    width:400px;
+  }
+  #headshot{
+    height:300px;
+  }
+  #headshot-caption{
+  	border:3px double #810D0D;
+  	right:-25px;
+  	top:313px;
+  }
+  .content{
+    margin:60px 40px 0 40px;
+  }
+  .music-video{
+    width:250px;
+    height:140px;
+  }
+  #comics-button{
+  display:none;
+  }
+  #footerquote{
+  	margin:auto;
+  	line-height:1.5;
+  	width:300px;
+  }
+}

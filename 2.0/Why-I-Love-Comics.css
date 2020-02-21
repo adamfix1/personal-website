@@ -1,0 +1,116 @@
+body{
+	margin:0px;
+	font-family:georgia;
+}
+.top-banner, .bottom-banner{
+	background-color:orange;
+	height:300px;
+	text-align:center;
+	font-size:100px;
+	font-family: 'Marvel', sans-serif;
+	padding:40px;
+}
+.container {
+  	display: grid;
+  	max-width: 988px;
+  	position: relative;
+  	margin: 10px auto;
+  	grid-template-areas:
+												"head head head"
+												"head head head"
+                        "grant-morrison grant-morrison grant-morrison"
+                       	"Batman all-star-superman all-star-superman"
+												"Batman all-star-superman all-star-superman"
+                       	"Batman all-star-superman all-star-superman"
+												"stan-lee all-star-superman all-star-superman"
+												"beta-ray-bill all-star-superman all-star-superman"
+												"sandman1 sandman1 jack-kirby";
+  	grid-template-rows:repeat(8, 180px) 273px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap:15px;
+}
+header {
+  grid-area: head;
+	background-color:red;
+}
+.quote{
+	border:1px solid black;
+	padding:20px 30px;
+	text-align:center;
+}
+.quote:hover{
+	color:white;
+	background-color:rgba(0, 0, 0, .7)
+}
+.grant-morrison{
+  	grid-area: grant-morrison;
+}
+.grant-morrison-quote{
+
+}
+.grant-morrison-overlay{
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Grant-Morrison.jpg);
+	background-size:cover;
+	height:175px;
+	width:988px;
+	z-index:-5;
+	position:relative;
+	bottom:175px;
+	opacity:.3;
+}
+.Batman{
+  	grid-area: Batman;
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Batman.jpg);
+	background-size:cover;
+}
+.stan-lee{
+	grid-area: stan-lee;
+	height:180px;
+}
+.stan-lee-overlay{
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Stan.jpg);
+	background-size:cover;
+	height:198px;
+	opacity:.3;
+	z-index:-5;
+	position:relative;
+	bottom:181px;
+	width:320px;
+	height:180px;
+}
+.stan-lee-quote{
+	height:120px;
+	padding-top:40px;
+}
+.beta-ray-bill{
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Beta-Ray-Bill.png);
+	background-size:cover;
+}
+.all-star-superman{
+  grid-area: all-star-superman;
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/All-star%20superman%20scene.jpg);
+	background-size:cover;
+}
+.sandman1{
+  grid-area: sandman1;
+	background-size:cover;
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Sandman1.jpg);
+}
+.jack-kirby{
+	grid-area: jack-kirby;
+}
+.jack-kirby-quote{
+	font-size:30px;
+	padding:65px 20px 45px 20px;
+	height:163px;
+}
+#jack-kirby-overlay{
+	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Jack-Kirby.jpg);
+	background-size:cover;
+	opacity:.3;
+	z-index:-5;
+	position:relative;
+	bottom:274px;
+	width:320px;
+	height:273px;
+}
