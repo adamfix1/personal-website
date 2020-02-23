@@ -3,7 +3,7 @@
 	font-family:georgia;
 }
 body{
-	background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Pale%20Blue%20Background.jpg');
+	background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Pale%20Blue%20Background.jpg');
 	margin:0px;
 }
 #nav-bar{
@@ -137,7 +137,7 @@ p{
 }
 .zero{
   grid-area:zero;
-  background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Minneapolis%20Panorama.jpg);
+  background-image:url(https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Minneapolis%20Panorama.jpg);
   background-size:cover;
 }
 .where-i-live-caption{
@@ -170,32 +170,32 @@ p{
 }
 .one{
   grid-area:one;
-  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Minneapolis-winter-2.jpg');
+  background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Minneapolis-winter-2.jpg');
   background-size:cover;
 }
 .two{
   grid-area:two;
-  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Minneapolis-1.jpg');
+  background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Minneapolis-1.jpg');
   background-size:cover;
 }
 .twopointfive{
   grid-area:twopointfive;
-  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Cherry.jpg');
+  background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Cherry.jpg');
   background-size:cover;
 }
 .three{
   grid-area:three;
-  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/The-falls.jpg');
+  background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/The-falls.jpg');
   background-size:cover;
 }
 .four{
   grid-area: four;
-  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/First-ave.jpg');
+  background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/First-ave.jpg');
   background-size:cover;
 }
 .five{
   grid-area: five;
-  background-image:url('file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Sunken-garden.jpg');
+  background-image:url('https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Sunken-garden.jpg');
   background-size:cover;
 }
 .box{
@@ -207,7 +207,7 @@ p{
 	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 #comics-button{
-  background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/kerpow.jpg);
+  background-image:url(https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/kerpow.jpg);
   background-size:cover;  color:rgba(34, 44, 44, 0);
   height:100px;
   left:23px;
@@ -223,7 +223,7 @@ p{
   background-image:none;
 }
 footer{
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Dont%20Need%20a%20Weatherman.jpg);
+	background-image:url(https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Dont%20Need%20a%20Weatherman.jpg);
 	background-size:cover;
 	height:565px;
 }
