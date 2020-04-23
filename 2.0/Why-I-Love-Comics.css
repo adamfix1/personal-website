@@ -16,22 +16,25 @@ body{
   	position: relative;
   	margin: 10px auto;
   	grid-template-areas:
-												"head head head"
-												"head head head"
-                        "grant-morrison grant-morrison grant-morrison"
+												"header header header"
+												"header header header"
+                        "header header header"
+												"header header header"
+												"grant-morrison grant-morrison grant-morrison"
                        	"Batman all-star-superman all-star-superman"
 												"Batman all-star-superman all-star-superman"
                        	"Batman all-star-superman all-star-superman"
 												"stan-lee all-star-superman all-star-superman"
 												"beta-ray-bill all-star-superman all-star-superman"
 												"sandman1 sandman1 jack-kirby";
-  	grid-template-rows:repeat(8, 180px) 273px;
+  	grid-template-rows:repeat(10, 180px) 273px;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap:15px;
 }
 header {
-  grid-area: head;
-	background-color:red;
+  grid-area: header;
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Kirby2.jpg);
+	background-size: cover;
 }
 .quote{
 	border:1px solid black;
@@ -49,7 +52,7 @@ header {
 
 }
 .grant-morrison-overlay{
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Grant-Morrison.jpg);
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Grant-Morrison.jpg);
 	background-size:cover;
 	height:175px;
 	width:988px;
@@ -60,7 +63,7 @@ header {
 }
 .Batman{
   	grid-area: Batman;
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Batman.jpg);
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Batman.jpg);
 	background-size:cover;
 }
 .stan-lee{
@@ -68,7 +71,7 @@ header {
 	height:180px;
 }
 .stan-lee-overlay{
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Stan.jpg);
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Stan.jpg);
 	background-size:cover;
 	height:198px;
 	opacity:.3;
@@ -83,18 +86,18 @@ header {
 	padding-top:40px;
 }
 .beta-ray-bill{
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Beta-Ray-Bill.png);
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Beta-Ray-Bill.png);
 	background-size:cover;
 }
 .all-star-superman{
   grid-area: all-star-superman;
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/All-star%20superman%20scene.jpg);
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/All-Star%20Superman%20Scene.jpg);
 	background-size:cover;
 }
 .sandman1{
   grid-area: sandman1;
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Sandman1.jpg);
 	background-size:cover;
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Sandman1.jpg);
 }
 .jack-kirby{
 	grid-area: jack-kirby;
@@ -105,7 +108,7 @@ header {
 	height:163px;
 }
 #jack-kirby-overlay{
-	background-image:url(file:///Users/adamfix1/Google%20Drive/Fuck%20Academia!!/My%20Website/Images/Jack-Kirby.jpg);
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Jack-Kirby.jpg);
 	background-size:cover;
 	opacity:.3;
 	z-index:-5;

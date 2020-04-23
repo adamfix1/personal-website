@@ -68,13 +68,13 @@ h3{
 	padding:0px 20px;
 }
 h4{
-	margin:20px 40px 0 40px;
+	margin:20px 40px 2px 40px;
 }
 p{
 	margin:0 40px 2px 40px;
 }
 .indentedparagraph{
-	margin:auto 40px 2px 95px;
+	margin:auto 40px 3px 95px;
 }
 #headshot{
 	position:absolute;
@@ -104,20 +104,21 @@ p{
 }
 .music-video-section{
 	max-height:400px;
-	overflow: scroll;
+	overflow:scroll;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
 }
 .music-video{
 	border:2px solid #228F64;
 	border-radius:4px;
-	height:300px;
+	height:250px;
+  width:45%;
 	margin:20px auto;
-	max-width:100%;
-  display:block;
+  display: block;
 }
 .Music p{
   text-align:center;
-}
-.where-i-live{
 }
 .where-i-live-grid{
   display:grid;
