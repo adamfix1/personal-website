@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	font-family:georgia;
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Dots1.jpg);
 }
 .top-banner, .bottom-banner{
 	background-color:orange;
@@ -10,32 +11,34 @@ body{
 	font-family: 'Marvel', sans-serif;
 	padding:40px;
 }
+
+/* Here is the code for the grid. Note that width of each column is 319px, with space of 15px between them. */
 .container {
   	display: grid;
   	max-width: 988px;
   	position: relative;
   	margin: 10px auto;
   	grid-template-areas:
-												"header header header"
-												"header header header"
-                        "header header header"
-												"header header header"
-												"grant-morrison grant-morrison grant-morrison"
-                       	"Batman all-star-superman all-star-superman"
-												"Batman all-star-superman all-star-superman"
-                       	"Batman all-star-superman all-star-superman"
-												"stan-lee all-star-superman all-star-superman"
-												"beta-ray-bill all-star-superman all-star-superman"
-												"sandman1 sandman1 jack-kirby";
-  	grid-template-rows:repeat(10, 180px) 273px;
+											"header header header"
+											"header header header"
+                      "header header header"
+											"header header header"
+											"grant-morrison grant-morrison grant-morrison"
+                     	"Batman all-star-superman all-star-superman"
+											"Batman all-star-superman all-star-superman"
+                     	"Batman all-star-superman all-star-superman"
+											"stan-lee all-star-superman all-star-superman"
+											"beta-ray-bill all-star-superman all-star-superman"
+											"first_avenger_scene first_avenger_scene daredevil1"
+											"civil_war_scene civil_war_scene daredevil1"
+											"watchmen1 watchmen1 watchmen1"
+											"sandman1 sandman1 jack-kirby";
+  	grid-template-rows:repeat(10, 180px) repeat(2, 273px) 600px 273px;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap:15px;
 }
-header {
-  grid-area: header;
-	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Kirby2.jpg);
-	background-size: cover;
-}
+
+/* Here is the code for generic items, like quotes. */
 .quote{
 	border:1px solid black;
 	padding:20px 30px;
@@ -45,53 +48,84 @@ header {
 	color:white;
 	background-color:rgba(0, 0, 0, .7)
 }
+.video{
+	height:273px;
+	width: 653px;
+}
+
+/* Here is the code for specific cells within the grid. */
+header {
+  grid-area: header;
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Kirby2.jpg);
+	background-size: cover;
+}
 .grant-morrison{
   	grid-area: grant-morrison;
-}
-.grant-morrison-quote{
-
+		background-color: white;
 }
 .grant-morrison-overlay{
 	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Grant-Morrison.jpg);
 	background-size:cover;
 	height:175px;
 	width:988px;
-	z-index:-5;
-	position:relative;
-	bottom:175px;
+	z-index:0;
+	position:absolute;
 	opacity:.3;
 }
+.grant-morrison-quote{
+	position: relative;
+}
 .Batman{
-  	grid-area: Batman;
+  grid-area: Batman;
 	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Batman.jpg);
 	background-size:cover;
 }
 .stan-lee{
 	grid-area: stan-lee;
 	height:180px;
+	background-color:white;
 }
 .stan-lee-overlay{
 	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Stan.jpg);
 	background-size:cover;
 	height:198px;
 	opacity:.3;
-	z-index:-5;
-	position:relative;
-	bottom:181px;
+	z-index:0;
+	position:absolute;
 	width:320px;
 	height:180px;
 }
 .stan-lee-quote{
 	height:120px;
 	padding-top:40px;
+	position:relative;
 }
 .beta-ray-bill{
+	grid-area: beta-ray-bill;
 	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Beta-Ray-Bill.png);
 	background-size:cover;
 }
 .all-star-superman{
   grid-area: all-star-superman;
 	background-image:url(https://adamfix1.github.io/personalwebsite/Images/All-Star%20Superman%20Scene.jpg);
+	background-size:cover;
+}
+.first_avenger_scene{
+	grid-area: first_avenger_scene;
+	background-color: white;
+}
+.civil_war_scene{
+	grid-area: civil_war_scene;
+}
+.daredevil1 {
+	grid-area: daredevil1;
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/daredevil1.gif);
+	background-size: cover;
+	background-position: center;
+}
+.watchmen1 {
+	grid-area: watchmen1;
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/watchmen1.jpg);
 	background-size:cover;
 }
 .sandman1{
@@ -101,19 +135,20 @@ header {
 }
 .jack-kirby{
 	grid-area: jack-kirby;
+	background-color: white;
+}
+.jack-kirby-overlay{
+	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Jack-Kirby.jpg);
+	background-size:cover;
+	opacity:.3;
+	z-index:0;
+	position:absolute;
+	width:319px;
+	height:274px;
 }
 .jack-kirby-quote{
 	font-size:30px;
 	padding:65px 20px 45px 20px;
 	height:163px;
-}
-#jack-kirby-overlay{
-	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Jack-Kirby.jpg);
-	background-size:cover;
-	opacity:.3;
-	z-index:-5;
 	position:relative;
-	bottom:274px;
-	width:320px;
-	height:273px;
 }
