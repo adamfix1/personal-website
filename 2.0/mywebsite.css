@@ -51,7 +51,7 @@ h1{
 	font-family: 'raleway', Garamond;
 	font-size:90px;
 	height:100px;
-	margin:10% 47% 10px 80px;
+	margin:8% 47% 10px 80px;
 	opacity:.8;
 }
 h2{
@@ -103,7 +103,7 @@ p{
 	background-color:rgba(240, 255, 255, .5);
 }
 .music-video-section{
-	max-height:400px;
+	max-height:500px;
 	overflow:scroll;
   display:flex;
   flex-wrap:wrap;
@@ -210,22 +210,8 @@ p{
 .box:hover{
 	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
-#comics-button{
-  background-image:url(https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Kerpow.jpg);
-  background-size:cover;  color:rgba(34, 44, 44, 0);
-  height:100px;
-  left:23px;
-  margin:0;
-  padding:15px 5px;
-  position:absolute;
-  top:1200px;
-  width:74px;
-}
-#comics-button:hover{
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-  color:black;
-  background-image:none;
-}
+
+/*Footer Stuff.*/
 footer{
 	background-image:url(https://adamfix1.github.io/personalwebsite/Images/Dont%20Need%20a%20Weatherman.jpg);
 	background-size:cover;
@@ -245,6 +231,17 @@ footer{
 	width:100%;
 	margin:0px;
 }
+#footerquote{
+	color:#810D0D;
+	margin:auto;
+	border-top: 1px solid #810D0D;
+	border-bottom: 1px solid #810D0D;
+	line-height:2;
+	width:480px;
+	font-family:Merriweather;
+}
+
+/*Code for buttons.*/
 .button{
 	border:1px solid #810D0D;
 	border-radius: 4px;
@@ -252,7 +249,7 @@ footer{
   display: block;
 	font-family:'raleway', garamond;
   font-weight: bold;
-  margin:240px auto 200px auto;
+  margin:240px auto 190px auto;
   padding:20px;
 	text-align:center;
   width:200px;
@@ -260,17 +257,46 @@ footer{
 .button:hover {
  	background: azure;
 }
-#footerquote{
-	color:#810D0D;
-	margin:auto;
-	text-align:center;
-	width:auto;
-	border-top: 1px solid #810D0D;
-	border-bottom: 1px solid #810D0D;
-	line-height:2;
-	width:480px;
-	font-family:Merriweather;
+#comics-button{
+  background-image:url(https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Kerpow.jpg);
+  background-size:cover;
+  color:rgba(34, 44, 44, 0);
+  height:100px;
+  left:23px;
+  margin:0;
+  padding:15px 5px;
+  position:absolute;
+  top:1200px;
+  width:74px;
 }
+#comics-button:hover{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  color:black;
+  background-image:none;
+}
+#Photoshop-button{
+  background-image:url(https://raw.githubusercontent.com/adamfix1/personalwebsite/master/Images/Photoshop.png);
+  background-size:cover;
+  background-position:center;
+  border:none;
+  color:rgba(34, 44, 44, 0);
+  font-size: 12px;
+  height:75px;
+  right:23px;
+  margin:0;
+  padding:15px 5px;
+  position:absolute;
+  top:900px;
+  width:75px;
+}
+#Photoshop-button:hover{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  color:black;
+  background-image:none;
+}
+
+
+
 
 
 
